@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="hero wrap">
+  <div class="hero-copy reveal">
+    <span class="eyebrow">{{ site.Params.role }}</span>
+    <h1>Programming matter to behave more like life.</h1>
+    <p class="lede">I develop synthetic cells, nonlinear biochemical reaction networks and enzyme-powered active materials that sense, process information and adapt.</p>
+    <div class="hero-actions"><a class="button primary" href="{{ "research/" | relURL }}">Explore research</a><a class="button text" href="{{ "publications/" | relURL }}">View publications <span>↗</span></a></div>
+  </div>
+  <div class="hero-visual reveal" aria-label="Featured research images">
+    <figure class="image-panel panel-a"><img src="{{ "images/condensates.jpg" | relURL }}" alt="Placeholder for microscopy image of condensates"><figcaption><span>01</span> Microscopy · condensates</figcaption></figure>
+    <figure class="image-panel panel-b"><img src="{{ "images/reaction-network.jpg" | relURL }}" alt="Placeholder for reaction-network illustration"><figcaption><span>02</span> Programmable reaction networks</figcaption></figure>
+  </div>
+</section>
+<section class="statement wrap reveal"><p>From molecular interactions to emergent function.</p><h2>Research across scales</h2></section>
+<section class="research-cards wrap">
+  <a class="research-card reveal" href="{{ "research/" | relURL }}#synthetic-cells-and-rna-nanotechnology"><span class="card-number">01</span><h3>Synthetic cells</h3><p>RNA origami and DNA-based regulatory networks for genetically encoded cellular functions.</p><span class="arrow">↗</span></a>
+  <a class="research-card reveal" href="{{ "research/" | relURL }}#enzymatic-reaction-networks-and-molecular-information-processing"><span class="card-number">02</span><h3>Reaction networks</h3><p>Nonlinear enzymatic circuits for molecular computation, sensing and decision-making.</p><span class="arrow">↗</span></a>
+  <a class="research-card reveal" href="{{ "research/" | relURL }}#peptide-based-systems-chemistry-and-nanomotors"><span class="card-number">03</span><h3>Active matter</h3><p>Peptide assemblies and enzyme-powered nanomotors with adaptive motion and sensing.</p><span class="arrow">↗</span></a>
+</section>
+<section class="home-about wrap reveal"><div><span class="eyebrow">Current focus</span><h2>Towards autonomous, evolvable molecular systems</h2></div><div><p>My work combines experimental systems chemistry, bottom-up synthetic biology, molecular programming and quantitative analysis to understand how complex function emerges from interacting chemical components.</p><a class="inline-link" href="{{ "about/souvik_ghosh/" | relURL }}">Read my story <span>↗</span></a></div></section>
+{{ end }}

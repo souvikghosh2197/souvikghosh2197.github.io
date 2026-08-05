@@ -1,0 +1,5 @@
+<article class="publication reveal">
+  <div class="publication-meta"><span>{{ .Get "year" }}</span><span>{{ .Get "journal" }}</span></div>
+  <div class="publication-main"><h3><a href="{{ .Get "link" }}" target="_blank" rel="noreferrer">{{ .Inner | markdownify | plainify }}</a></h3><p class="authors">{{ .Get "authors" }}</p><p class="citation">{{ with .Get "volume" }}Vol. {{ . }}{{ end }}{{ with .Get "pages" }} · {{ . }}{{ end }}{{ with .Get "doi" }} · DOI: {{ . }}{{ end }}</p></div>
+  <a class="publication-arrow" href="{{ .Get "link" }}" target="_blank" rel="noreferrer" aria-label="Open publication">↗</a>
+</article>

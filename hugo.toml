@@ -1,0 +1,34 @@
+baseURL = "https://souvikghosh.github.io/"
+languageCode = "en-gb"
+title = "Souvik Ghosh"
+enableRobotsTXT = true
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  description = "Researcher in synthetic cells, enzymatic reaction networks, RNA nanotechnology and peptide-based active matter."
+  role = "Postdoctoral Researcher · Heidelberg University"
+  email = "s.ghosh@zmbh.uni-heidelberg.de"
+  linkedin = "https://www.linkedin.com/in/souvik-ghosh-21775912a/"
+  scholar = "https://scholar.google.co.in/citations?user=8bMwh_AAAAAJ&hl=en"
+
+[menu]
+  [[menu.main]]
+    name = "Research"
+    pageRef = "/research"
+    weight = 10
+  [[menu.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 20
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about/souvik_ghosh"
+    weight = 30
+  [[menu.main]]
+    name = "Contact"
+    pageRef = "/contact"
+    weight = 40

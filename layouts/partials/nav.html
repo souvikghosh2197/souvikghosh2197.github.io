@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="nav-shell">
+    <a class="brand" href="{{ site.Home.RelPermalink }}" aria-label="Souvik Ghosh home">
+      <span class="brand-mark">SG</span>
+      <span class="brand-copy"><strong>Souvik Ghosh</strong><small>Molecular systems chemistry</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu"><span></span><span></span></button>
+    <nav id="site-menu" class="site-menu" aria-label="Main navigation">
+      {{ range site.Menus.main }}<a href="{{ .URL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
+      <span class="nav-divider"></span>
+      <a class="icon-link" href="{{ site.Params.linkedin }}" target="_blank" rel="noreferrer" aria-label="LinkedIn">{{ partial "icon.html" "linkedin" }}</a>
+    </nav>
+  </div>
+</header>
