@@ -1,6 +1,6 @@
 ---
 title: "Teaching"
-date: 05-08-2026
+date: 2026-08-05
 draft: false
 layout: teaching
 ---
