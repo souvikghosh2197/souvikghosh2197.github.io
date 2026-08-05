@@ -25,6 +25,3 @@ Delivered over 400 hours of laboratory teaching, mentoring students in instrumen
 *Indian Institute of Science Education and Research (IISER) Kolkata, India*
 
 **Course:** Organic Functional Materials (CH4106)
-
-
-{{< /research_section >}}
