@@ -9,7 +9,7 @@ layout: research
 
 # Synthetic Cells and RNA nanotechnology
 
-My research aims develop RNA origami as programmable molecular hardware for synthetic biology. Co-transcriptionally folded RNA structures are integrated with DNA-based regulatory networks to produce dynamic, genetically encoded architectures inside synthetic cells. This work connects nucleic acid nanotechnology with bottom-up synthetic biology to create responsive and evolvable synthetic cellular systems. The long-term objective is to establish synthetic cells capable of autonomous regulation, adaptation, and evolution through a direct coupling between genotype and phenotype. 
+My research aims to develop RNA origami as programmable molecular hardware for synthetic biology. Co-transcriptionally folded RNA structures are integrated with DNA-based regulatory networks to produce dynamic, genetically encoded architectures inside synthetic cells. This work connects nucleic acid nanotechnology with bottom-up synthetic biology to create responsive and evolvable synthetic cellular systems. The long-term objective is to establish synthetic cells capable of autonomous regulation, adaptation, and evolution through a direct coupling between genotype and phenotype. 
  
 
 {{< /research_section >}}
@@ -18,7 +18,7 @@ My research aims develop RNA origami as programmable molecular hardware for synt
 
 # Enzymatic Reaction Networks and Molecular Information Processing
 
-I design nonlinear enzymatic reaction networks that perform information processing, biosensing, and decision-making. These biochemical circuits exploit emergent nonlinear dynamics to implement reservoir computing. My work combines reaction network design, microfluidics, mass spetrometry, and machine-learning to understand and control complex biochemical systems.
+I design nonlinear enzymatic reaction networks that perform information processing, biosensing, and decision-making. These biochemical circuits exploit emergent nonlinear dynamics to implement reservoir computing. My work combines reaction network design, microfluidics, mass spectrometry, and machine learning to understand and control complex biochemical systems.
 
 [Link to publications]({{< ref "publications/index.md#enzymatic-reaction-networks-and-molecular-information-processing" >}})
 
